@@ -1,4 +1,4 @@
-  
+ 
 <head>    
   <meta charset="UTF-8" />    
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
@@ -33,9 +33,8 @@
       animation: pulse 3s infinite alternate;
     }    
 
-    @keyframes pulse {    
-      0% { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.3)); }    
-      100% { filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.7)); }    
+
+  
     }    
 
     /* 🔥 WarClash Title */
@@ -52,7 +51,13 @@
       to { text-shadow: 0 0 30px #ff0000; }    
     }    
 
-    
+    .tagline {    
+      font-size: 1.25rem;    
+      color: #ff5555;    
+      margin-bottom: 30px;    
+      font-weight: 600;    
+      text-shadow: 0 0 15px rgba(255, 0, 0, 0.4);    
+      line-height: 1.5;    
     }    
 
     .download-btn {    
