@@ -1,17 +1,4 @@
-
-
-    .logo {
-      position: absolute;
-      top: 10px;
-      left: 15px;
-      font-size: 32px;
-      font-weight: bold;
-      color: red;
-      text-shadow   
-  <meta charset="UTF-8" />    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
-  <title>WarClash - Download</title>    
-  <style>    
+    
     body {    
       margin: 0;    
       padding: 0;    
