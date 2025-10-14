@@ -1,4 +1,4 @@
-<h1 style="color:red; position:absolute; top:10px; left:15px;">WarClash</h1>
+<h1 style="color:red; position:absolute; top:10px; left:15px;"></h1>
 <head>    
   <meta charset="UTF-8" />    
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
