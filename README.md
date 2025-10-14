@@ -1,11 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WarClash</title>
-  <style>
+  
+<head>    
+  <meta charset="UTF-8" />    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+  <title>- Download</title>    
+  <style>    
+    body {    
+      margin: 0;    
+      padding: 0;    
+      background-color: #000;    
+      font-family: 'Poppins', sans-serif;    
+      color: #fff;    
+      text-align: center;    
+      min-height: 140vh;    
+    }  
 
+    .container {    
+      display: flex;    
+      flex-direction: column;    
+      align-items: center;    
+      justify-content: flex-start;    
+      padding: 60px 20px;    
+      gap: 25px;    
+    }    
 
     /* 🔴 Top Logo */
     .top-logo {    
@@ -13,11 +29,13 @@
       height: auto;    
       margin-bottom: 25px;    
       border-radius: 25px;
-      
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.7);
+      animation: pulse 3s infinite alternate;
     }    
 
-
-  
+    @keyframes pulse {    
+      0% { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.3)); }    
+      100% { filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.7)); }    
     }    
 
     /* 🔥 WarClash Title */
