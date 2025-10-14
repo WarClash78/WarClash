@@ -1,22 +1,4 @@
-    
-    body {    
-      margin: 0;    
-      padding: 0;    
-      background-color: #000;    
-      font-family: 'Poppins', sans-serif;    
-      color: #fff;    
-      text-align: center;    
-      min-height: 140vh;    
-    }  
 
-    .container {    
-      display: flex;    
-      flex-direction: column;    
-      align-items: center;    
-      justify-content: flex-start;    
-      padding: 60px 20px;    
-      gap: 25px;    
-    }    
 
     /* 🔴 Top Logo */
     .top-logo {    
