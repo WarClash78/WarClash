@@ -29,8 +29,7 @@
       height: auto;    
       margin-bottom: 25px;    
       border-radius: 25px;
-      box-shadow: 0 0 30px rgba(255, 0, 0, 0.7);
-      animation: pulse 3s infinite alternate;
+      
     }    
 
     @keyframes pulse {    
