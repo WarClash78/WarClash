@@ -1,175 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DAILY BATTLE - Download</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+    }
 
-<head>    
-  <meta charset="UTF-8" />    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
-  <title>-warclash Download</title>    
-  <style>    
-    body {    
-      margin: 0;    
-      padding: 0;    
-      background-color: #000;    
-      font-family: 'Poppins', sans-serif;    
-      color: #fff;    
-      text-align: center;    
-      min-height: 140vh;    
-    }  
+    .logo {
+      margin-top: 60px;
+    }
 
-    .container {    
-      display: flex;    
-      flex-direction: column;    
-      align-items: center;    
-      justify-content: flex-start;    
-      padding: 60px 20px;    
-      gap: 25px;    
-    }    
+    .logo img {
+      width: 180px;
+      height: 180px;
+      border-radius: 15px;
+    }
 
-    /* 🔴 Top Logo */
-    .top-logo {    
-      width: 260px;    
-      height: auto;    
-      margin-bottom: 25px;    
-      border-radius: 25px;
-      
-    }    
+    h1 {
+      color: red;
+      margin-top: 30px;
+      font-size: 1.9em;
+      letter-spacing: 1px;
+    }
 
-    @keyframes pulse {    
-      0% { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.3)); }    
-      100% { filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.7)); }    
-    }    
+    p {
+      color: #ccc;
+      margin: 15px 25px 30px 25px;
+      line-height: 1.6em;
+      font-size: 1.05em;
+    }
 
-    /* 🔥 WarClash Title */
-    h1 {    
-      font-size: 3.2rem;    
-      color: #ff0000;    
-      text-shadow: 0 0 25px rgba(255, 0, 0, 0.7);    
-      margin-bottom: 10px;    
-      animation: glow 2s infinite alternate;    
-    }    
+    .download-btn {
+      display: inline-block;
+      background-color: red;
+      color: white;
+      padding: 18px 40px;
+      border-radius: 12px;
+      font-size: 1.15em;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 25px;
+      transition: 0.3s;
+    }
 
-    @keyframes glow {    
-      from { text-shadow: 0 0 10px #ff0000; }    
-      to { text-shadow: 0 0 30px #ff0000; }    
-    }    
+    .download-btn:hover {
+      background-color: darkred;
+      transform: scale(1.05);
+    }
 
-    .tagline {    
-      font-size: 1.25rem;    
-      color: #ff5555;    
-      margin-bottom: 30px;    
-      font-weight: 600;    
-      text-shadow: 0 0 15px rgba(255, 0, 0, 0.4);    
-      line-height: 1.5;    
-    }    
+    .feature {
+      background-color: #111;
+      margin: 30px auto;
+      padding: 20px;
+      width: 85%;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(255,0,0,0.3);
+    }
 
-    .download-btn {    
-      background: linear-gradient(90deg, #ff0000, #cc0000);    
-      color: white;    
-      font-size: 1.4rem;    
-      font-weight: 600;    
-      padding: 18px 45px;    
-      border: none;    
-      border-radius: 12px;    
-      cursor: pointer;    
-      box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);    
-      transition: all 0.3s ease;    
-      text-decoration: none;    
-      margin-bottom: 40px;    
-    }    
+    .feature h3 {
+      color: red;
+      margin-bottom: 12px;
+      font-size: 1.2em;
+    }
 
-    .download-btn:hover {    
-      box-shadow: 0 0 35px rgba(255, 0, 0, 0.8);    
-      transform: scale(1.07);    
-    }    
+    footer {
+      color: #777;
+      font-size: 0.9em;
+      margin: 60px 0 15px 0;
+    }
+  </style>
+</head>
+<body>
 
-    .features {    
-      display: flex;    
-      flex-direction: column;    
-      gap: 30px;    
-      width: 90%;    
-      max-width: 480px;    
-    }    
+  <div class="logo">
+    <img src="https://github.com/user-attachments/assets/348f763d-f062-41fe-855a-" alt="DAILY BATTLE Logo">
+  </div>
 
-    .feature-box {    
-      background-color: #111;    
-      border-radius: 16px;    
-      padding: 28px;    
-      box-shadow: 0 0 22px rgba(255, 0, 0, 0.35);    
-      transition: 0.3s;    
-    }    
+  <h1>DAILY BATTLE</h1>
+  <p>Join India's Best Free Fire Tournament • Compete Daily, Win Cash Instantly 💥</p>
 
-    .feature-box:hover {    
-      transform: scale(1.04);    
-      box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);    
-    }    
+  <a href="your-download-link-here" class="download-btn">⚔ Download App (APK)</a>
 
-    .feature-box h3 {    
-      color: #ff3b3b;    
-      margin-bottom: 12px;    
-      font-size: 1.25rem;    
-    }    
+  <div class="feature">
+    <h3>🎯 Free Tournaments</h3>
+    <p>Free Tournament Every Week With Big Prize Pools 🔥</p>
+  </div>
 
-    .feature-box p {    
-      color: #ccc;    
-      margin: 0;    
-      font-size: 1rem;    
-      line-height: 1.5;    
-    }    
+  <div class="feature">
+    <h3>⚡ Fastest Withdrawal</h3>
+    <p>Withdrawals In Just 30 Mins, No Delays 🌿</p>
+  </div>
 
-    footer {    
-      margin-top: 70px;    
-      font-size: 0.9rem;    
-      color: #777;    
-    }  
-  </style>    
-</head>    
-<body>    
-  <div class="container">    
+  <div class="feature">
+    <h3>💬 Fastest Support</h3>
+    <p>Issues Solved in 30 Mins Via Super Speedy Support System</p>
+  </div>
 
-    <!-- 🔥 Top Logo -->
-    <img src="https://github.com/user-attachments/assets/5a1440b5-0608-460e-8085-931d48f5d594" alt="WarClash Logo" class="top-logo" />    
+  <div class="feature">
+    <h3>💰 Fastest Reward System</h3>
+    <p>Results Updated Instantly Within Seconds ⚡</p>
+  </div>
 
-    <!-- 🔴 Glowing Title -->
-    <h1>WarClash</h1>  
+  <div class="feature">
+    <h3>🛡 Secure & Fair</h3>
+    <p>Advanced Anti-Cheat System For Fair Tournament Play</p>
+  </div>
 
-    <div class="tagline">    
-      Join India's Best Free Fire Tournament • Compete Daily, Win Cash Instantly 💥    
-    </div>    
+  <div class="feature">
+    <h3>🔥 Fastest Growing & Trusted</h3>
+    <p>DAILY BATTLE Is One Of India's Most Trusted Gaming Apps</p>
+  </div>
 
-    <!-- ✅ Download Button -->    
-    <a class="download-btn" href="https://ga-fs.primexop.com/11521/androidBuilds/warclashV1.apk" target="_blank">    
-      ⚔️ Download App (APK)    
-    </a>    
+  <footer>© 2025 DAILY BATTLE. All Rights Reserved.</footer>
 
-    <div class="features">    
-      <div class="feature-box">    
-        <h3>🎯 Free Tournaments</h3>    
-        <p>Free Tournament Every Week With Big Prize Pools 🔥</p>    
-      </div>    
-
-      <div class="feature-box">    
-        <h3>⚡ Fastest Withdrawal</h3>    
-        <p>Withdrawals In Just 30 Mins, No Delays 💸</p>    
-      </div>    
-
-      <div class="feature-box">    
-        <h3>🚀 Fastest Support</h3>    
-        <p>Issues Solved in 30 Mins Via Super Speedy Support System</p>    
-      </div>    
-
-      <div class="feature-box">    
-        <h3>💰 Fastest Reward System</h3>    
-        <p>Results Updated Instantly Within Seconds ⚡</p>    
-      </div>    
-
-      <div class="feature-box">    
-        <h3>🛡️ Secure & Fair</h3>    
-        <p>Advanced Anti-Cheat System For Fair Tournament Play</p>    
-      </div>    
-
-      <div class="feature-box">    
-        <h3>🔥 Fastest Growing & Trusted</h3>    
-        <p>WarClash Is One Of India's Most Trusted Gaming Apps</p>    
-      </div>    
-    </div>    
-
-    <footer>© 2025 WarClash. All Rights Reserved.</footer>  
-  </div>    
+</body>
+</html>
